@@ -29,8 +29,8 @@ public final class Utils {
 
     @Getter
     private static final List<String> scoreInformation = Arrays.asList(
-            "&r&7compactmcbe.online",
-            "&r&9dsc.gg/compactbedrock"
+            "&r&7server.online",
+            "&r&9dsc.gg/server"
     );
 
     static {
