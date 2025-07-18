@@ -1,0 +1,42 @@
+name: Practice
+version: 1.5
+author: Alexis
+main: alexis.practice.Practice
+api: 1.0.0
+permissions:
+  build.permission:
+    default: op
+    description: 'Permission to build in lobby'
+  setup.command:
+    default: op
+    description: 'Permission to configure duel maps, knockback, holograms and other things (ONLY OWNERS)'
+  chat.cooldown.permission:
+    default: op
+    description: 'Permission to not have cooldown when speaking'
+  staffmode.permission:
+    default: op
+    description: 'Only Staff'
+  globalmute.command:
+    default: op
+    description: 'Permission to enable/disable globalmute'
+  globalmute.permission:
+    default: op
+    description: 'Permission to speak during global mute'
+  selector.permission:
+    default: op
+    description: 'Permission to select maps when creating duels'
+  partypremium.permission:
+    default: op
+    description: 'Permission to Create parties with a higher number of members'
+  event.permission:
+    default: op
+    description: 'Permission to create events'
+  settings.permission:
+    default: op
+    description: 'Permission to use premium settings'
+  cosmetics.permission:
+    default: op
+    description: 'Permission to use premium cosmetics'
+  disguise.command:
+    default: op
+    description: 'Permission to use disguise'

@@ -1,0 +1,17 @@
+*.class
+.vscode
+.vscode/*
+target
+target/*
+out/
+lib/
+.DS_Store
+.idea
+.idea/*
+.classpath
+.project
+.settings
+.settings/*
+.DS_Store
+.factorypath
+.dependency-reduced-pom.xml

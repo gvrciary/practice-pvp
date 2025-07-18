@@ -1,0 +1,76 @@
+#Division configuration
+#Range increase: is defined by global elo
+divisions:
+  bronze:
+    color: "&6"
+    range-increase: 50
+    subdivisions: 3
+  gold:
+    color: "&g"
+    range-increase: 65
+    subdivisions: 3
+  platinum:
+    color: "&7"
+    range-increase: 75
+    subdivisions: 3
+  diamond:
+    color: "&d"
+    range-increase: 85
+    subdivisions: 3
+  sapphire:
+    color: "&a"
+    subdivisions: 1
+
+#Holograms configuration
+holograms:
+  lobby:
+    enabled: false
+    location:
+    text:
+      - ""
+      - "&eWelcome to Practice"
+      - "&5"
+      - "&7 - Discord: &f"
+      - "&7 - Store: &f"
+      - " "
+  leaderboard:
+    enabled: false
+    location:
+  personal:
+    enabled: false
+    location:
+
+# Mechanics configuration
+mechanics:
+  fishing:
+    drag: 0.04
+    gravity: 0.1
+  splash:
+    drag: 0.0025
+    gravity: 0.06
+  ender:
+    drag: 0.0085
+    gravity: 0.065
+
+# Server configuration
+server-configuration:
+  message-join:
+    content:
+      - "&eNA Practice"
+      - "&7"
+      - "&e| To duel, type:&7 /duel <player> "
+      - "&e| To spectate, type:&7 /spectate <player> "
+      - "&e| To host event, type:&7 /host "
+      - "&r"
+      - "&e| Season 1: Started on April 27th"
+  auto-messages:
+    delay: 120
+    content:
+      - "&eJoin to the &9discord &eserver: &adsc.gg/practice"
+
+#Database configuration
+database:
+  host:
+  username:
+  password:
+  schema:
