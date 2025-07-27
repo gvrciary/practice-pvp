@@ -2,16 +2,14 @@
 
 A comprehensive PvP practice plugin for Nukkit MOT servers featuring duels, parties, events, divisions, and free-for-all combat.
 
-## 🚀 Features
-
-### 🥊 Duel System
+### Duel System
 - **1v1 Duels**: Challenge players to various PvP game modes
 - **2v2 Duels**: Team-based combat with friends
 - **Queue System**: Automatic matchmaking based on skill level
 - **Spectator Mode**: Watch ongoing duels
 - **Multiple Game Modes**: 14+ different PvP kits and modes
 
-### 🎮 Game Modes
+### Game Modes
 - **NoDebuff**: Classic PvP with healing potions
 - **UHC Variants**: FinalUHC, BuildUHC, CaveUHC
 - **Sumo**: Knockback-based combat
@@ -21,39 +19,39 @@ A comprehensive PvP practice plugin for Nukkit MOT servers featuring duels, part
 - **Combo**: High-knockback PvP
 - **And more**: Fireball, BattleRush, MidFight, HG, TNTSumo
 
-### 🎉 Party System
+### Party System
 - **Create Parties**: Form groups with friends
 - **Party Duels**: Challenge other parties
 - **Party Events**: Internal party competitions
 - **Premium Features**: Larger party sizes for VIP players
 
-### 🏆 Events System
+### Events System
 - **Tournaments**: Bracket-style competitions
 - **SkyWars**: Battle royale in the sky
 - **Sumo Events**: Last player standing
 - **Meetup**: Large-scale PvP battles
 - **Host Events**: Staff can create custom events
 
-### 📊 Division & Ranking
+### Division & Ranking
 - **ELO System**: Skill-based ranking
 - **5 Divisions**: Bronze, Gold, Platinum, Diamond, Sapphire
 - **Subdivisions**: Multiple tiers within each division
 - **Leaderboards**: Track top players
 - **Statistics**: Detailed win/loss records
 
-### ⚔️ Free-For-All (FFA)
+### Free-For-All (FFA)
 - **Multiple FFA Arenas**: Different game modes
 - **SkyWars FFA**: Aerial combat
 - **Build FFA**: Combat with building mechanics
 - **Continuous Action**: Jump in and fight anytime
 
-### 🎨 Customization
+### Customization
 - **Kit Loadouts**: Customize your preferred setups
 - **Cosmetics**: Premium visual enhancements
 - **Settings**: Personalize your experience
 - **Disguise System**: Staff moderation tools
 
-## ⚙️ Configuration
+## Configuration
 
 ### Database Setup
 ```yaml
@@ -85,7 +83,7 @@ holograms:
       - "&7Fight and climb the ranks!"
 ```
 
-## 🎯 Commands
+## Commands
 
 ### Player Commands
 - `/duel <player> [kit]` - Challenge a player to a duel
@@ -100,12 +98,12 @@ holograms:
 - `/setup` - Configure plugin settings
 - `/staff` - Enter staff mode
 - `/hologram` - Manage holograms
-- `/division <player> <division>` - Set player division
+- `/division` - See all divisions and their requirements
 - `/globalmute` - Toggle server-wide mute
 - `/disguise` - Change your appearance
 - `/stop` - Stop ongoing matches
 
-## 🔧 Permissions
+## Permissions
 
 ### Player Permissions
 - `build.permission` - Build in lobby areas
